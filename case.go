@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"net/http"
 	"strconv"
 	"strings"
 	"unicode"
@@ -28,6 +29,7 @@ func ToUp(str string) string {
 	}
 	return strings.Join(tokens, " ")
 }
+
 
 // Mini Task 4: Implement (low)
 func ToLow(str string) string {
